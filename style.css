@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 390px;
+    height: 844px;
+    background-color: #72bfff;
+}
+
+.cabecalho{
+    height: 160px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.cabecalho img{
+    width: 128px;
+    height: 128px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.cabecalho .vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho p{
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
